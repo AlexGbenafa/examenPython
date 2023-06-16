@@ -25,9 +25,6 @@ def compterChaqueMot(nomf, nomf1):
         for mot, occurrences in mots.items():
             file.write(f"{mot}({occurrences}) ")
 
-    print("Opération terminée.")
-
-
 
 compterChaqueMot('nomf.txt', 'nomf1.txt')
 nbMotsAvecVoyelle('nomf.txt')

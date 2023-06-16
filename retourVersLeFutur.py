@@ -13,8 +13,8 @@ def Saisie():
 def calculAnnee(t, annee_min, annee_max):
     for personne in t:
         print(f"Personne: {personne['nom']}")
-        annee_min = int(input("Dans quelle année minimum souhaitez-vous faire un voyage dans le temps ?"))
-        annee_max = int(input("Dans quelle année maximum souhaitez-vous faire un voyage dans le temps ?"))
+        annee_min = int(input("Dans quelle année minimum souhaitez-vous faire un voyage dans le temps?"))
+        annee_max = int(input("Dans quelle année maximum souhaitez-vous faire un voyage dans le temps?"))
         annee_voyage = randint(annee_min, annee_max)
         print("L'annee de voyage est: ", annee_voyage)
         personne['annee'] = annee_voyage
