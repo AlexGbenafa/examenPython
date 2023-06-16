@@ -22,7 +22,7 @@ def calculAnnee(t, annee_min, annee_max):
 def calculTemps(t):
     for personne in t:
         temps_retour = abs(personne['annee'] - 2017) * 10
-        print("Le temps de retour en 2017 est: ", temps_retour,"sec")
+        print("Le temps de retour en 2017 est:", temps_retour,"sec")
         personne['temps'] = temps_retour
 
 t = Saisie()
